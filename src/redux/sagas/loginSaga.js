@@ -9,7 +9,7 @@ function* loginUser(action) {
 
     const config = {
       headers: { 'Content-Type': 'application/json' },
-      withCredentials: true,
+      withCredentials: true,  //this needs to be true to use cookies
     };
 
     // send the action.payload as the body
